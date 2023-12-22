@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Ontap.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Css/ontap.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+       <table>
+            <tr class="row-1">
+
+                <td colspan="2"> 
+                     <p>TRƯỜNG CAO ĐẲNG CÔNG THƯƠNG VIỆT NAM </p> 
+                    <p>"Đào Tạo Những Gì Doanh Nghệp Cần"</p>
+                    <img src="Image/cong-thuong11.jpg" />
+                </td>
+            </tr>
+            <tr class="row-2">
+                <td class="row-2-col-1">
+                    <div>
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/CapNhat.aspx">Cập nhật</asp:HyperLink>
+                    </div>
+                     <div>
+                         <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/TimKiem.aspx">Tìm kiếm</asp:HyperLink>
+                    </div>
+                </td>
+                <td class="row-2-col-2">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr class="row-3">
+                <td colspan="3"></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

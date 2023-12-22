@@ -1,0 +1,45 @@
+﻿body {
+    font-family: Arial,sans-serif;
+    margin: 0px;
+    padding: 30px
+}
+
+table {
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.row-1 {
+    text-align: center;
+    height: 500px;
+    width: 80%;
+    font-size: 50px;
+    font-weight: 80;
+}
+
+.row-2 {
+    height: 500px;
+}
+
+.row-3 {
+    text-align: center;
+    height: 50px;
+}
+
+.row-2-col-1 {
+    width: 30%;
+}
+
+.row-2-col-2 {
+    width: 70%;
+}
+img {
+    width: 15%;
+    display: flex;
+}
